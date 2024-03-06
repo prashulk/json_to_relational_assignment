@@ -3,6 +3,7 @@
 <img width="1472" alt="image" src="https://github.com/prashulk/json_to_relational_assignment/assets/67316162/370ac1f5-a309-4294-92e7-7e564b39ea75">
 
 
+**Note: **If above image unclear then refer Data Model.pdf file for details
 
 
 ## Data Quality Handling:
