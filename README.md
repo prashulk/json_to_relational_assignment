@@ -19,6 +19,6 @@ Second set of review was done after inserting data in Postgres and checking the 
 
 ### Data Quality - brand: (Refer - read_brands.ipynb & Users_dq_sql.pdf)
 
-Now again after parsing the **brands.json** and finding Nulls, we clearly observe around 50% missing values for ```categoryCode``` and ```topBrand```. **IMP:** There are Nulls in ```BrandCode``` but no nulls for ```Barcode``. This will be an important factor to decide on how to join this table, since I plan to create a dimension table for brands as well. There are no duplicates and nulls in ```uuid``` which makes it better for the primary key aspect. 
+Now again after parsing the **brands.json** and finding Nulls, we clearly observe around 50% missing values for ```categoryCode``` and ```topBrand```. **IMP:** There are Nulls in ```BrandCode``` but no nulls for ```Barcode```. This will be an important factor to decide on how to join this table, since I plan to create a dimension table for brands as well. There are no duplicates and nulls in ```uuid``` which makes it better for the primary key aspect. 
 
 Now, the initial check is done, so we proceed with replacing blanks with None and column renaming and sequencing for consistency and finally upload to the postgres.
