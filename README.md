@@ -1,10 +1,12 @@
 # json_to_relational_assignment
 
 ### Introduction:
-The structure or the sequence used here is:
-  - Initially, the ***json*** files are read using Jupyter Notebook, to read the data, do first round of data quality checks and cleaning (with assumptions stated).
-  - Post initial cleaning of JSON, database connection is setup to Postgres and keeping relational design in mind, the data is inserted into the relational tables.
-  - Second set of data quality inspection is done in Postgres, with the data model in mind. Screenshots/SQL code is attached as proof for the same.
+The initial sequence I have followed for data cleaning - 
+
+<img width="765" alt="image" src="https://github.com/prashulk/json_to_relational_assignment/assets/67316162/883adc83-7180-42bf-ba9e-012a30e7c252">
+
+  - Data quality checks and cleaning done with assumptions stated in file.
+
 
 ### Data Quality - users: (Refer - read_users.ipynb & Users_dq_sql.pdf)
 From the Nulls percentage we observe that there around 10% of data is missing for *signupSource*, *state* and *lastloginDate*. Moreover out of 495 entries, there were only 212 unique userid's. Based on the business questions asked (query 5 and 6), the design was to create a separate User dimension table. This will be helpful wherein we can just isnert new User_ids in the Users dimension table with just 1 user per record thereby making the User_id as ```Primary Key```. Hence, Primary Key's cannot be duplicate and it was observed in the input Json, that entire rows were a duplicate, hence the decision was taken to remove duplicate user_id's here.  
