@@ -66,7 +66,7 @@ The initial sequence I have followed for data cleaning -
 
 
 
-### Data Quality - Receipts (Refer - read_receipts.ipynb & Brands_dq_sql.pdf)
+### Data Quality - Receipts (Refer - read_receipts.ipynb & Receipts_dq_sql.pdf)
 
 1. **Null Percentage Analysis**:
    - Approximately 50% of data is missing for 'bonusPoints', 'pointsAwardedDate', followed by `rewardsReceiptItemList`, `totalSpent`, etc.
@@ -84,6 +84,7 @@ The initial sequence I have followed for data cleaning -
 4. **Data Conversion & Column Renaming, Insertion in Database**:
    - String objects converted to float for quantitative data, dates converted appropriately column sequencing followed by insertion of two tables in Postgres
 
+5. **Refer the Receipts_dq.sql**: Refer this file for further analysis on inconsistencies found in some of the fields. There were more, but the main ones which are of primary cause as of now have been mentioned.
 
 
 
