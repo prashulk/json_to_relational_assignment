@@ -66,3 +66,24 @@ The initial sequence I have followed for data cleaning -
 
 
 
+### Data Quality - Receipts (Refer - read_receipts.ipynb & Brands_dq_sql.pdf)
+
+1. **Null Percentage Analysis**:
+   - Approximately 50% of data is missing for 'bonusPoints', 'pointsAwardedDate', followed by `rewardsReceiptItemList`, `totalSpent`, etc.
+   - **Steps**:
+     - Further analysis in the sql.pdf file to understand relationships.
+
+2. **Handling Null Values**:
+   - Blanks replaced with `None` for consistency.
+  
+3. **Data Handling**:
+  - The input JSON is further split into 2:
+
+<img width="762" alt="image" src="https://github.com/prashulk/json_to_relational_assignment/assets/67316162/ae82a427-21e5-4f01-9f1c-7f77b91548d6">
+
+4. **Data Conversion & Column Renaming, Insertion in Database**:
+   - String objects converted to float for quantitative data, dates converted appropriately column sequencing followed by insertion of two tables in Postgres
+
+
+
+
