@@ -8,6 +8,9 @@
 
 
 
+Since, time values are sparse in this data, as observed through date values, as of now, I plan to keep the date values in the same table itself. If it would have been continuous, then I propose a ```time dimension``` as well where we can have different fields such as year, week, quarter, etc. based on the business needs and whatever granularity required and join with the date_id fields in the existing tables
+
+
 
 ## Data Quality Handling:
 The initial sequence I have followed for data cleaning - 
