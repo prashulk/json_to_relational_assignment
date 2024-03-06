@@ -1,6 +1,11 @@
 # json_to_relational_assignment
+## Data Modeling:
+<img width="1472" alt="image" src="https://github.com/prashulk/json_to_relational_assignment/assets/67316162/370ac1f5-a309-4294-92e7-7e564b39ea75">
 
-### Introduction:
+
+
+
+## Data Quality Handling:
 The initial sequence I have followed for data cleaning - 
 
 <img width="926" alt="image" src="https://github.com/prashulk/json_to_relational_assignment/assets/67316162/306799a4-119a-4575-81a6-f98056e36b70">
