@@ -1,9 +1,10 @@
 # json_to_relational_assignment
 ## Data Modeling:
-<img width="1472" alt="image" src="https://github.com/prashulk/json_to_relational_assignment/assets/67316162/370ac1f5-a309-4294-92e7-7e564b39ea75">
+
+<img width="1467" alt="image" src="https://github.com/prashulk/json_to_relational_assignment/assets/67316162/2f513f08-d1fd-44cf-ac96-f54bd29e969d">
 
 
-**Note**: If above image unclear then refer Data Model.pdf file for details.
+**Note**: If above image unclear then refer Data_Model_upd.pdf file for details.
 
 
 
