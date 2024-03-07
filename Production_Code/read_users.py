@@ -9,10 +9,10 @@ def load_data_to_postgres(df):
 
     db_config = {
         'user': 'postgres',
-        'password': 'your_password',
+        'password': '9901',
         'host': 'localhost',
-        'port': '5432',
-        'database': 'your_database'
+        'port': '5433',
+        'database': 'postgres'
     }
     
     conn = psycopg2.connect(**db_config)
