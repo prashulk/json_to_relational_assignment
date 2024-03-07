@@ -87,5 +87,6 @@ The initial sequence I have followed for data cleaning -
 
 5. **Refer the Receipts_dq.sql**: Refer this file for further analysis on inconsistencies found in some of the fields. There were more, but the main ones which are of primary cause as of now have been mentioned.
 
+## Communicate with Stakeholders:
 
-
+Refer ```Email.pdf``` for this.
