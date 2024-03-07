@@ -93,4 +93,9 @@ Refer ```Email.pdf``` for this.
 
 
 ## Production scaling Pipeline: (Refer Production Code Folder for this)
+<img width="1212" alt="image" src="https://github.com/prashulk/json_to_relational_assignment/assets/67316162/4cd59d2b-a583-4d14-a8fd-bd2be77aa27c">
+
+The input files are fed into unit test and if the tests are passed then the ingestion scripts followed by loading the relational tables
+
+
 
