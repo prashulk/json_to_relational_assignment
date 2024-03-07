@@ -90,3 +90,7 @@ The initial sequence I have followed for data cleaning -
 ## Communicate with Stakeholders:
 
 Refer ```Email.pdf``` for this.
+
+
+## Production scaling Pipeline: (Refer Production Code Folder for this)
+
